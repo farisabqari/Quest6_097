@@ -1,6 +1,7 @@
 package com.example.pratikum6dan6.ui.Screen
 
 
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

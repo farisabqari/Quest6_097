@@ -1,6 +1,5 @@
 package com.example.pratikum6dan6.ui.viewmodel
 
-
 import androidx.lifecycle.ViewModel
 import com.example.pratikum6dan6.Model.Mahasiswa
 import kotlinx.coroutines.flow.MutableStateFlow

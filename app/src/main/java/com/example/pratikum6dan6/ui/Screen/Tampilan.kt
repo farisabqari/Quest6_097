@@ -33,6 +33,20 @@ import com.example.pratikum6dan6.Model.Mahasiswa
 import com.example.pratikum6dan6.Model.RencanaStudy
 import com.example.pratikum6dan6.R
 
+@Composable
+fun TemplatesHasil(judulParam:String, isiParam:String){
+    Column{
+        Row (
+            modifier = Modifier.fillMaxWidth().padding(8.dp),
+            horizontalArrangement = Arrangement.SpaceEvenly
+
+        ) {
+            Text(judulParam, modifier = Modifier.weight(0.8f))
+            Text(":", modifier = Modifier.weight(0.2f))
+            Text(isiParam, modifier = Modifier.weight(2f))
+        }
+    }
+}
 
 @Composable
 fun TampilHasilView(
@@ -134,17 +148,3 @@ fun TampilHasilView(
     }
 }
 
-@Composable
-fun TemplatesHasil(judulParam:String, isiParam:String){
-    Column{
-        Row (
-            modifier = Modifier.fillMaxWidth().padding(8.dp),
-            horizontalArrangement = Arrangement.SpaceEvenly
-
-        ) {
-            Text(judulParam, modifier = Modifier.weight(0.8f))
-            Text(":", modifier = Modifier.weight(0.2f))
-            Text(isiParam, modifier = Modifier.weight(2f))
-        }
-    }
-}

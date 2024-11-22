@@ -56,5 +56,7 @@ fun MahasiswaFormView(
         mutableStateOf("")
     }
 
-}
 
+    val listData: MutableList<String> =
+        mutableListOf(nim, nama, email)
+}

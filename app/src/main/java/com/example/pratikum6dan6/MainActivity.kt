@@ -20,6 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pratikum6dan6Theme {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
+
                     MahasiswaApp(
                         modifier = Modifier.padding(innerPadding)
                     )
